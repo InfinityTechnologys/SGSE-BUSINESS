@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/business-info.css" />
+    <link rel="shotcut icon" href="IMAGE/site_ikon.ico" />
+    <title>SGSE İŞLETME | İşletme Bilgi</title>
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <header>
+      <a href="index.html">
+        <img
+          width="110"
+          height="110"
+          src="IMAGE/ikon_beyaz.PNG"
+          alt="logo_white"
+          class="logo_white"
+        />
+      </a>
+
+      <center><h1>Sınırsız Gıda Sınırlı Erişim İşletme</h1></center>
+
+      <button class="menu_button" onclick="menu()">
+        <img src="IMAGE/menu_button_img.PNG" width="40" alt="menu buton" />
+      </button>
+
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="index.html">Ana Sayfa</a>
+          </li>
+          <li>
+            <a href="business-info.html" style="text-decoration: underline"
+              >İşletme Bilgileri</a
+            >
+          </li>
+          <li><a href="manage.html">Yönet</a></li>
+          <li><a href="login.html">Giriş Yap</a></li>
+          <li><a href="register.html">Kayıt Ol</a></li>
+          <li>
+            <a href="about.html">Hakkımızda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
+
+    <center><h1 class="business-info-title">İşletme Bilgi</h1></center>
+    <br />
+    <br />
+    <br />
+    <center><h2>İşletme bilgisi bulunamadı! Giriş yapmayı deneyin.</h2></center>
+    <br />
+    <br />
+    <center>
+      <button onclick="return_login()" class="return-login">Giriş Yap</button>
+    </center>
+
+    <script src="SCRIPT/business-info.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="shotcut icon" href="IMAGE/site_ikon.ico" />
+    <title>SGSE İŞLETME | Giriş Yap</title>
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <header>
+      <a href="index.html">
+        <img
+          width="110"
+          height="110"
+          src="IMAGE/ikon_beyaz.PNG"
+          alt="logo_white"
+          class="logo_white"
+        />
+      </a>
+
+      <center><h1>Sınırsız Gıda Sınırlı Erişim İşletme</h1></center>
+
+      <button class="menu_button" onclick="menu()">
+        <img src="IMAGE/menu_button_img.PNG" width="40" alt="menu buton" />
+      </button>
+
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="index.html">Ana Sayfa</a>
+          </li>
+          <li><a href="business-info.html">İşletme Bilgileri</a></li>
+          <li><a href="manage.html">Yönet</a></li>
+          <li>
+            <a href="login.html" style="text-decoration: underline"
+              >Giriş Yap</a
+            >
+          </li>
+          <li><a href="register.html">Kayıt Ol</a></li>
+          <li>
+            <a href="about.html">Hakkımızda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
+
+    <center><h1 class="login-title">Giriş Yap</h1></center>
+
+    <center>
+      <input
+        type="email"
+        name=""
+        id=""
+        placeholder="E-Mail adresinizi giriniz..."
+      />
+    </center>
+
+    <center>
+      <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
+    </center>
+    <center>
+      <input type="input" name="" id="" placeholder="İşletme adınız..." />
+    </center>
+    <br />
+    <br />
+    <center>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LcMhQQrAAAAAMl2FeSVWNrgwdqSnxZQyXRrWbu-"
+      ></div>
+    </center>
+
+    <br />
+    <center><a title="Şifremi Unuttum" href="#">Şifremi unuttum</a></center>
+    <center>
+      <button
+        class="login_button"
+        title="Giriş Yap"
+        onclick="showErrorMessage('Giriş yapma işlemi başarısız! Uygulama prototip aşamasında.')"
+      >
+        Giriş Yap
+      </button>
+    </center>
+    <br />
+    <center>
+      <a href="register.html">Hesabınız yok mu? Kayıt olun</a>
+    </center>
+
+    <script src="SCRIPT/login.js" defer></script>
+  </body>
+</html>
