@@ -24,3 +24,15 @@ Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTe
 >[!WARNING]
 >Uygulama geliştirilme aşamasındadır. Siteye erişim sağlayamayabilirsiniz!
 
+## Proje Hakkında
+Bu proje 2025 Teknofest ve Sosyal Sorumluluk projesidir. Projedeki hedefimiz dar gelirli kişilerin ve ailelerin ücretsiz bir şekilde gıda alabilmesini sağlamaktır. Uygulama sizin yakınlarınızda bu sistemi destekleyen işletmeleri göstermek ve dar gelirli insanların bu yerlerde ücretsiz bir şekilde gıda tüketebilmesini sağlamaktır.
+
+## Site Hakkında 
+Bu site Sınırsız Gıda Sınırlı Erişim (SGSE) projesi için geliştirilmiştir. Sitenin amacı SGSE sistemindeki işletmeleri eklemek ve işletme sahipleri tarafından sistem üzerinde değişiklik yapmak için vardır.
+
+## Emeği Geçenler
+- Ahmet Taha Çokgez : Uygulama ve Sistem Yazılımı
+- Yakup Özalp : Takım Kaptanlığı, Proje Fikri, Rapor Hazırlama, Editörlük, Hata ve Öneri bildir
+- Kadir Özer : Seslendirme Yapma, Seneryo, Hata ve Öneri bildirme
+- Ömer Cavit Keskin : Medya Yöneticiliği, Hata ve Öneri, Animasyon
+- Serkan Akdemir : Danışman
