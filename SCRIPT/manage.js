@@ -38,3 +38,10 @@ function closeError() {
 function return_login() {
   window.location.href = "login.html";
 }
+
+const savedTheme = localStorage.getItem("site-theme");
+if (savedTheme) {
+  document.documentElement.setAttribute("data-theme", savedTheme);
+} else {
+  document.documentElement.setAttribute("data-theme", "light");
+}

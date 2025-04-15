@@ -71,6 +71,16 @@ h4 {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.theme-button {
+  background: none;
+  border: none;
+  float: right;
+  margin-top: 250px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
 .preloader {
   position: fixed;
   top: 0;

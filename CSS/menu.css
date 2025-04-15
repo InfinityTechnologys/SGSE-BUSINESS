@@ -24,6 +24,10 @@ body {
   color: #ff5733;
 }
 
+.theme-button {
+  display: none;
+}
+
 .warning {
   display: block;
   margin-top: 60px;
@@ -104,6 +108,14 @@ body {
 
   .return_lobi {
     display: none;
+  }
+
+  .theme-button {
+    background: none;
+    border: none;
+    float: right;
+    margin-top: 50px;
+    display: block;
   }
 
   .user_profile_photo img {
