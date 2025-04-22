@@ -56,6 +56,10 @@ h4 {
   font-size: 18px;
 }
 
+.isl-title {
+  display: none;
+}
+
 #errorBox {
   display: none;
   background-color: #ffdddd;
@@ -97,7 +101,7 @@ h4 {
   width: 50px;
   height: 50px;
   border: 5px solid rgba(0, 0, 0, 0.1);
-  border-top: 5px solid #e3651d;
+  border-top: 5px solid #ff3d00;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -152,8 +156,7 @@ h4 {
   }
 
   header h1::after {
-    margin-left: -40px;
-    content: "SGSE İŞL";
+    content: "SGSE";
     visibility: visible;
   }
 
@@ -166,6 +169,10 @@ h4 {
     margin-top: 0px;
     margin-left: 0px;
     width: 100%;
+  }
+
+  .isl-title {
+    display: block;
   }
 
   header ul {
